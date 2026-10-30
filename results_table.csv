@@ -1,0 +1,22 @@
+,,accuracy,accuracy,f1_macro,f1_macro
+,,mean,std,mean,std
+setting,method,,,,
+Centralized,Centralized,0.9645,0.0167,0.965,0.0164
+IID,FedAvg,0.9645,0.0135,0.965,0.0132
+IID,FedAvg+Clip (z=0),0.9645,0.0135,0.965,0.0132
+IID,FedAvg+DP (z=0.1),0.9645,0.0135,0.965,0.0132
+IID,FedAvg+DP (z=0.5),0.9258,0.0155,0.9252,0.0153
+IID,FedAvg+DP (z=1.0),0.8258,0.0345,0.8235,0.0331
+IID,FedAvg+DP (z=2.0),0.6984,0.0417,0.6896,0.0502
+Non-IID (alpha=0.1),FedAvg,0.9661,0.0144,0.9666,0.014
+Non-IID (alpha=0.1),FedAvg+Clip (z=0),0.9661,0.012,0.9666,0.0115
+Non-IID (alpha=0.1),FedAvg+DP (z=0.1),0.9629,0.0108,0.9633,0.0105
+Non-IID (alpha=0.1),FedAvg+DP (z=0.5),0.9242,0.0363,0.9245,0.0354
+Non-IID (alpha=0.1),FedAvg+DP (z=1.0),0.8016,0.0837,0.7968,0.088
+Non-IID (alpha=0.1),FedAvg+DP (z=2.0),0.6903,0.1253,0.6712,0.1402
+Non-IID (alpha=0.5),FedAvg,0.9694,0.012,0.9698,0.0115
+Non-IID (alpha=0.5),FedAvg+Clip (z=0),0.9645,0.0092,0.9648,0.009
+Non-IID (alpha=0.5),FedAvg+DP (z=0.1),0.9613,0.0144,0.9616,0.0143
+Non-IID (alpha=0.5),FedAvg+DP (z=0.5),0.9081,0.0259,0.9062,0.0277
+Non-IID (alpha=0.5),FedAvg+DP (z=1.0),0.8065,0.0356,0.7994,0.0388
+Non-IID (alpha=0.5),FedAvg+DP (z=2.0),0.6887,0.0543,0.6787,0.057
